@@ -1,0 +1,310 @@
+----------------------------------------------------------------------
+# exemplu bon fiscal
+c48,1,0000,1
+42,Admin
+42,
+49,Test\tA1*1
+53,\tN0
+42,----------------------------------------
+42,Noi dorim sa va fie pe plac!
+42,----------------------------------------
+42,Bon 12663.101.101
+42,una.md/Oracle-POS
+56
+++++++++++++++++++
+48,1\t1\t1111\t\t
+49,Bread11Русские буквы\t1\t125.25\t1.256\t0\t0\t0\tkg\t
+49,Bread2Русские буквы\t2\t125\t1\t0\t0\t0\tbuc.\t
+49,123456789012345678901234567890123456789012345678901234567890123456789012\t3\t125\t1\t0\t0\t0\t123456\t
+54,NON-Free text in fiscal receipt  01234\t
+53,1\t8.78\t
+53,3\t80\t
+53,4\t90\t
+53,5\t100\t
+53,0\t500\t
+56
++++++++++++++
+48,1[\t]0000[\t]1[\t]
+100,-110210[\t]
+49,Bread11Русские буквы[\t]1[\t]125.25[\t]1.256[\t]0[\t]0[\t]0[\t]kg[\t]
+49,Bread2Русские буквы[\t]2[\t]125[\t]1[\t]0[\t]0[\t]0[\t]buc.[\t]
+49,123456789012345678901234567890123456789012345678901234567890123456789012[\t]3[\t]125[\t]1[\t]0[\t]0[\t]0[\t]123456[\t]
+76
+54,NON-Free text in fiscal receipt  01234[\t]
+53,1[\t]8.78[\t]
+53,3[\t]80[\t]
+53,4[\t]90[\t]
+53,5[\t]100[\t]
+53,0[\t]500[\t]
+56
+&&&&&&&&&&&&&&&&&&
+[\t]
+/br115200/port1/DATECS/t/c
+48,1,1,1
+42,Admin
+42,
+49,Test\tA1.5*1\tbucc.
+53,\tN0.5
+53,\tP0
+42,----------------------------------------
+42,Noi dorim sa va fie pe plac!
+42,----------------------------------------
+42,Bon 12663.101.101
+42,una.md/Oracle-POS
+56
+
+69,Z[\t]
+--------------------------------------------------------------------------
+
+33  -> Clear the display.
+38  -> Deschidere bon nefiscal
+39  -> Inchidere bon ne fiscal
+42  -> Print text
+        Ex: 42,text
+        param: Text
+43  -> Program the contents of a header/footer lines.
+        Ex: 43,1Textlines
+        param:  - (int) Header line num (Betwen 1 to 5 Tremol, 0 to 5 Datex)
+                        Footer line num (6, 7)
+                - (str) Text line
+44  -> Paper feed
+        Ex: 44,3
+        param: (int) nr lines
+45  -> Paper Cut
+33  -> Clears the external display
+        Ex: 33
+35  -> display text on second line of the external display
+        Ex: 35,Text second
+47  -> Display text on upper line of the external display
+        Ex: 47,Test ecran
+48  -> Deschide Bon fiscal
+        Ex: 48,1,0000,1
+        param:  -(int) Operator Num
+                -(str) Operator pasword
+                -(int) Cash register location number (between 1 and 99999)
+49  -> Printare produs simplu
+        Ex: 49,Nume produs\tA10.00*2
+        --Datex protocol nou
+        Ex: 49,Nume produs\tA10.00*2\t20\t0\t0\tbuc.
+        param: - str(Nume produs)
+               - \t (str) cota TVA (A,B,C,D .....)
+               - (float) pret produs
+               - * (int) cantitatea
+               - \t (int) departament
+               - \t (int) DiscountType 0, 1, 2, 3, 4, 5, 6
+               - \t (int) DiscountValue  0 to 21474836.47, or 0.00 to 100.00 %
+               - \t (str) Unitatea de masura
+53  -> Payment
+        Ex: 53,\tN1.00
+        param: - \t (str) type payment (N - Numerar, P - Cu Card)
+               - (float) sum payment
+56  -> Inchiderea bonului fiscal
+69  -> Raport zilnic
+        Ex: 69,0
+        param: - 2 raport informativ
+               - 0 raport X
+70  -> Introducerea banilor in casa
+        Ex: 70,1.20
+        param: -(float) Sum
+71 -> Print Status FP
+84  -> Print barcode
+        Ex: textbarcode,4
+        param:  - (str) Barcobe text
+                - (str) Barcode Type
+                     * '0' - UPC A
+                     * '1' - UPC E
+                     * '2' - EAN 13
+                     * '3' - EAN 8
+                     * '4' - CODE 39
+                     * '5' - ITF
+                     * '6' - CODABAR
+                     * 'H' - CODE 93
+                     * 'I' - CODE 128
+87  -> Set data for the stated department number from the internal FD database.
+        Ex: 87,1,C,Dept. 1
+        param:  - (int) Number
+                - (str) Vat Class
+                     * 'A' - VAT class A
+                     * 'B' - VAT class B
+                     * 'C' - VAT class C
+                     * 'D' - VAT class D
+                     * 'E' - VAT class E
+                     * 'F' - VAT class F
+                     * 'G' - VAT class G
+                     * 'H' - VAT class H
+                     * 'I' - VAT class I
+                - (str) Nume dept
+102 -> Programs the operator's name and password.
+        Ex: 102,1,0000,Oper. 1
+        param:  - Number - Symbols from '1' to '20' corresponding to operator's number
+                - Password - 4 symbols for operator's password
+                - Name - 20 symbols for operator's name
+106 -> Open the Cash Drawer
+117 -> Prints departments report
+        Ex: (FP DATEX)  117
+            (FP TREMOL) 117,Z
+                param:
+                - 'Z' -Zeroing
+                - 'X' - Without zeroing
+
+124 -> Search documents in EJ by date (Datex protocol ver. new)
+     ex. 124,01-03-22 00:00:00,16-03-22 23:59:59,0
+     result: '0\t01-03-22 00:00:00\t16-03-22 23:59:59\t0\t1\t0\t47\t'
+125 -> Information from EJ (Datex protocol ver. new)
+     ex. 125,0,47,0
+================== TREMOL DRIVER ZFPLAB ===============
+201 -> Print Header
+        Ex: 201,3
+        param: -Nr line
+202 -> Print Footer
+203 -> Print Date time
+204 -> Print parameters Fp
+206 -> Prints an article report with or without zeroing ('Z' or 'X').
+        Ex: 206,Z
+        param:  - (str) Z -Zeroing
+                - (str) X - Without zeroing
+207 -> Provides information for the programmed data, the turnover from the stated department number
+        Ex: 207,1
+        param: - (int) dept num
+208 -> Provide information about operators name and password.
+        Ex: 208,1
+        param - (int) operator num
+
+        Communication
+
+cIQOS -> preia din api IQOS checul
+         si il printeaza ca chek nefiscal
+         in printer (lucreazaa la toate modele FP)
+
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+^Q129
+^W56
+^H8
+^P1
+^S4
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E18
+~R255
+^L
+Dmnddy4
+Th:m:s
+Y0,263,Image11
+Y361,205,WindowText9
+R31,208,214,492,1,1
+AA,65,490,1,1,0,3E,Proteine:                            3.6            7
+AA,84,490,1,1,0,3E,Grasimi:                            11.2          16
+AA,103,490,1,1,0,3E,din care acizi grasi            7.2          36
+AA,122,490,1,1,0,3E,acizi grasi trans                 0.02
+AA,141,490,1,1,0,3E,Glucide:                             40.1         15
+AA,160,490,1,1,0,3E,din care zaharuri               30.2        34
+AA,179,490,1,1,0,3E,Fibre alimentare:               0.9           4
+AA,198,490,1,1,0,3E,Sare:                                 0.36          6
+AA,30,489,1,1,0,3E,Declaratia nutritionala: per 100gr    CR%
+AA,49,489,1,1,0,3E,Valoarea Energetica:  275.4Kcal     14
+BE,230,230,2,7,90,3,3,4840931000139
+AA,25,1011,1,1,0,3E,zahar cristal, SMANTANA fermentata cu grasimea 25%, frisca vegetala
+AA,43,1011,1,1,0,3E,(apa, grasime vegetala din sambure de palmier total hidrogenata,
+AA,61,1011,1,1,0,3E,fibre vegetale, proteina din LAPTE, stabilizatori: E420ii, E463;
+AA,79,1011,1,1,0,3E,emulgatori: E472e, E472b, lecitina de SOIA; sare, aromatizatori,
+AA,97,1011,1,1,0,3E,colorant: beta-caroten), faina de GRAU c/s, OUA de gaina, apa
+AA,115,1011,1,1,0,3E,potabila, miere artificiala (zahar, apa, acid  citric,  bicarbonat de
+AA,133,1011,1,1,0,3E,sodiu), MIEZ DE NUCA, acidifiant (acid acetic), afanator (bicarbonat
+AA,151,1011,1,1,0,3E,de sodiu), aroma: vanilina.
+AA,169,1011,1,1,0,3E,
+
+AA,25,203,1,1,0,3,Durata si conditii de
+AA,44,203,1,1,0,3,pastrare: 72 ore
+AA,63,203,1,1,0,3,la temperatura 4±2°C
+AA,82,203,1,1,0,3,umiditatea relativa a.
+AA,101,203,1,1,0,3,aerului 85%.
+
+AA,280,481,1,1,0,3E,Masa neta:   0.5 kg +/-5%
+AA,222,481,1,1,0,3E,Data fabricarii:
+AA,239,481,1,1,0,3E,Data expirarii:
+
+Ddd/me/y4
+Th:m:s
+AA,221,372,1,1,0,3E,27.10.2022 11:50
+Ddd/me/y4
+Th:m:s
+AA,240,372,1,1,0,3E,30.10.2022 11:50
+AA,304,481,1,1,0,3E,Lot Nr.
+Lo,27,339,216,339
+Lo,27,263,216,263
+Lo,83,209,83,492
+Lo,66,209,66,492
+Lo,48,209,48,492
+Lo,139,208,139,491
+Lo,176,208,176,491
+Lo,196,207,196,490
+Dmnddy4
+AA,304,423,1,1,0,3E,^D
+VA,0,1010,1,1,0,3E,         Tort Ca Acasa 0.5kg DL
+
+E
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++ MODIFICARI 02.11.2022 +++++++++++++++++++++++++++++++++
+^Q129
+^W56
+^H8
+^P{v_print_qnt}
+^S4
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E18
+~R255
+^L
+Dmnddy4
+Th:m:s
+Y0,263,Image11
+Y361,205,WindowText9
+R31,208,220,492,1,1
+AA,68,490,1,1,0,3E,Proteine:                            {self.proteine}            {self.proc_protein}
+AA,87,490,1,1,0,3E,Grasimi:                            {self.grasimi}          {self.proc_jir}
+AA,106,490,1,1,0,3E,din care acizi grasi            {self.eda_saturated_fatty_acids}          {self.proc_saturated_fatty_acids}
+AA,125,490,1,1,0,3E,acizi grasi trans                 {self.eda_unsaturated_fatty_acids}
+AA,144,490,1,1,0,3E,Glucide:                             {self.glucide}         {self.proc_uglevod}
+AA,163,490,1,1,0,3E,din care zaharuri               {self.eda_sugar}        {self.proc_sugar}
+AA,182,490,1,1,0,3E,Fibre alimentare:               {self.eda_fiber}           {self.proc_fiber}
+AA,201,490,1,1,0,3E,Sare:                                 {self.eda_salt}          {self.proc_salt}
+AA,33,489,1,1,0,3E,Declaratia nutritionala: per 100gr    CR%
+AA,52,489,1,1,0,3E,Valoarea Energetica:  {self.valoarea_energetica}Kcal     {self.proc_energycost}
+BE,230,230,2,7,90,3,3,{v_barcode}
+{v_ingrediente_txt}
+{v_frozen}
+AA,280,481,1,1,0,3E,Masa neta: {self.masa_p}  +/-5%
+AA,225,481,1,1,0,3E,Data fabricarii:
+AA,242,481,1,1,0,3E,Data expirarii:
+{v_price_txt}
+Ddd/me/y4
+Th:m:s
+AA,224,372,1,1,0,3E,{self.data_fabricarii}
+Ddd/me/y4
+Th:m:s
+AA,243,372,1,1,0,3E,{self.data_expirarii}
+AA,304,481,1,1,0,3E,Lot Nr.
+Lo,31,339,220,339
+Lo,31,263,220,263
+Lo,86,209,86,492
+Lo,69,209,69,492
+Lo,51,209,51,492
+Lo,142,208,142,491
+Lo,179,208,179,491
+Lo,199,207,199,490
+Dmnddy4
+AA,304,423,1,1,0,3E,^D
+VA,0,1010,1,1,0,3E,{v_name_p}
+{v_total_txt}
+E
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

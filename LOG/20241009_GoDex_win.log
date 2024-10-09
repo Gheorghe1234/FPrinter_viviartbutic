@@ -1,0 +1,786 @@
+10-09-24 14:42:33 [root                       ] [INFO    ] F:[844: <module>            ] Run Application
+10-09-24 14:42:33 [root                       ] [INFO    ] F:[845: <module>            ] V 20241009
+10-09-24 14:42:33 [root                       ] [ERROR   ] F:[899: <module>            ]  list index out of range
+10-09-24 14:53:52 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 14:53:52 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 14:53:52 [root                       ] [ERROR   ] F:[918: <module>            ]  list index out of range
+10-09-24 14:56:31 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 14:56:31 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 14:56:31 [root                       ] [ERROR   ] F:[918: <module>            ]  list index out of range
+10-09-24 14:56:55 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 14:56:55 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 14:56:55 [root                       ] [ERROR   ] F:[918: <module>            ]  list index out of range
+10-09-24 15:33:28 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 15:33:28 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 15:33:28 [root                       ] [ERROR   ] F:[895: <module>            ]  list index out of range
+10-09-24 16:08:00 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:08:00 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:08:00 [root                       ] [ERROR   ] F:[895: <module>            ]  list index out of range
+10-09-24 16:11:07 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:11:07 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:11:07 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:11:07 [root                       ] [INFO    ] F:[891: <module>            ] DULCINELLA DULCINELLA C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:11:07 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [DULCINELLA], p_db_server: [DULCINELLA], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:11:07 [DB.conn                    ] [ERROR   ] F:[25: __init__            ] DPI-1047: Cannot locate a 64-bit Oracle Client library: "The specified module could not be found". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+10-09-24 16:11:07 [root                       ] [ERROR   ] F:[895: <module>            ]  DPI-1047: Cannot locate a 64-bit Oracle Client library: "The specified module could not be found". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+10-09-24 16:14:15 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:14:15 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:14:15 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:14:15 [root                       ] [INFO    ] F:[891: <module>            ] DULCINELLA DULCINELLA C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:14:15 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [DULCINELLA], p_db_server: [DULCINELLA], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:14:15 [DB.conn                    ] [ERROR   ] F:[25: __init__            ] DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\oracle\instantclient_12_2/oci.dll is not the correct architecture". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+10-09-24 16:14:15 [root                       ] [ERROR   ] F:[895: <module>            ]  DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\oracle\instantclient_12_2/oci.dll is not the correct architecture". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+10-09-24 16:34:24 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:34:24 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:34:24 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:34:24 [root                       ] [INFO    ] F:[891: <module>            ] DULCINELLA DULCINELLA C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:34:24 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [DULCINELLA], p_db_server: [DULCINELLA], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:34:25 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:34:25 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:34:25 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:34:25 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[891: <module>            ] DULCINELLA DULCINELLA C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:35:25 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [DULCINELLA], p_db_server: [DULCINELLA], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:35:25 [root                       ] [INFO    ] F:[203: fill_date_from_db   ] date_from_sc: ('Tort Ca Acasa DL', 'zahar cristal, SMANTANA fermentata cu grasimea 25%, frisca vegetala [apa, ulei din sambure de palmier total hidrogenata, zahar, stabilizator (sirop de sorbitol, hidroxipropil celuloza, alginat de sodiu), proteina din LAPTE, emulgator (E472e, lecitina de SOIA, polisorbat 60), sare, arome, colorant (caroten din plante)], faina de GRAU c/s, OUA de gaina, apa potabila, sirop invertit cu aroma de miere (apa potabila, zahar cristal, acid citric, bicarbonat de sodiu, aroma de miere), miez de NUCA (2.5%), acidifiant (acid acetic), afanator (bicarbonat de sodiu), aroma: vanilina.', 'Fabricat in moldova, SM 238:2004', 3.6, 11.2, 40.1, '275.4', '72 ore', '06097', 7.2, 0.02, 30.2, 0.9, 0.36, '4±2°C', 1, 207.1, 7.2, 0.02, 30.2, 0.9, 0.36, 14, 7, 16, 36, None, 15, 34, 4, 6, 0, 1)
+10-09-24 16:36:44 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:36:44 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:36:44 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:36:44 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic viviartbutic C:\oracle\instantclient_12_2 3408 plu
+10-09-24 16:36:44 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [viviartbutic], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:37:05 [root                       ] [ERROR   ] F:[895: <module>            ]  ORA-12154: TNS:could not resolve the connect identifier specified
+10-09-24 16:38:14 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:38:14 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:38:14 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:38:14 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic viviartbutic C:\oracle\instantclient_12_2 4024 plu
+10-09-24 16:38:14 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [viviartbutic], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:38:36 [root                       ] [ERROR   ] F:[895: <module>            ]  ORA-12154: TNS:could not resolve the connect identifier specified
+10-09-24 16:40:16 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:40:16 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:40:16 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:40:16 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic viviartbutic C:\oracle\instantclient_12_2 3408 plu
+10-09-24 16:40:16 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [viviartbutic], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:40:37 [root                       ] [ERROR   ] F:[895: <module>            ]  ORA-12154: TNS:could not resolve the connect identifier specified
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[891: <module>            ] DULCINELLA DULCINELLA C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:40:47 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [DULCINELLA], p_db_server: [DULCINELLA], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:40:47 [root                       ] [INFO    ] F:[203: fill_date_from_db   ] date_from_sc: ('Tort Ca Acasa DL', 'zahar cristal, SMANTANA fermentata cu grasimea 25%, frisca vegetala [apa, ulei din sambure de palmier total hidrogenata, zahar, stabilizator (sirop de sorbitol, hidroxipropil celuloza, alginat de sodiu), proteina din LAPTE, emulgator (E472e, lecitina de SOIA, polisorbat 60), sare, arome, colorant (caroten din plante)], faina de GRAU c/s, OUA de gaina, apa potabila, sirop invertit cu aroma de miere (apa potabila, zahar cristal, acid citric, bicarbonat de sodiu, aroma de miere), miez de NUCA (2.5%), acidifiant (acid acetic), afanator (bicarbonat de sodiu), aroma: vanilina.', 'Fabricat in moldova, SM 238:2004', 3.6, 11.2, 40.1, '275.4', '72 ore', '06097', 7.2, 0.02, 30.2, 0.9, 0.36, '4±2°C', 1, 207.1, 7.2, 0.02, 30.2, 0.9, 0.36, 14, 7, 16, 36, None, 15, 34, 4, 6, 0, 1)
+10-09-24 16:45:01 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:45:01 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:45:01 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:45:01 [root                       ] [INFO    ] F:[891: <module>            ] cloudbd viviartbutic C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:45:01 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [cloudbd], p_db_server: [viviartbutic], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:45:41 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:45:41 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:45:41 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:45:41 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:45:41 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:45:42 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:45:42 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:45:42 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:45:42 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:46:21 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:46:21 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 3408 plu
+10-09-24 16:46:58 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:46:58 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:53:01 [root                       ] [INFO    ] F:[840: <module>            ] Run Application
+10-09-24 16:53:01 [root                       ] [INFO    ] F:[841: <module>            ] V 20241009
+10-09-24 16:53:01 [root                       ] [INFO    ] F:[883: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:53:01 [root                       ] [INFO    ] F:[891: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:53:01 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:53:02 [root                       ] [INFO    ] F:[897: <module>            ] Connect db successful
+10-09-24 16:53:02 [root                       ] [INFO    ] F:[792: show_form           ] [192.168.200.21]
+10-09-24 16:53:02 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:53:02 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[841: <module>            ] Run Application
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[842: <module>            ] V 20241009
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[884: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[892: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:56:28 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[898: <module>            ] Connect db successful
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[793: show_form           ] [192.168.200.21]
+10-09-24 16:56:28 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:56:29 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 16:59:19 [root                       ] [INFO    ] F:[841: <module>            ] Run Application
+10-09-24 16:59:19 [root                       ] [INFO    ] F:[842: <module>            ] V 20241009
+10-09-24 16:59:19 [root                       ] [INFO    ] F:[884: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 16:59:19 [root                       ] [INFO    ] F:[892: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 16:59:19 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 16:59:20 [root                       ] [INFO    ] F:[898: <module>            ] Connect db successful
+10-09-24 16:59:20 [root                       ] [INFO    ] F:[793: show_form           ] [192.168.200.21]
+10-09-24 16:59:20 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 16:59:20 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[841: <module>            ] Run Application
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[842: <module>            ] V 20241009
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[884: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[892: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 17:01:05 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[898: <module>            ] Connect db successful
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[793: show_form           ] [192.168.200.21]
+10-09-24 17:01:05 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:01:06 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:01:25 [root                       ] [INFO    ] F:[841: <module>            ] Run Application
+10-09-24 17:01:25 [root                       ] [INFO    ] F:[842: <module>            ] V 20241009
+10-09-24 17:01:25 [root                       ] [INFO    ] F:[884: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:01:25 [root                       ] [INFO    ] F:[892: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 17:01:25 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:01:26 [root                       ] [INFO    ] F:[898: <module>            ] Connect db successful
+10-09-24 17:01:26 [root                       ] [INFO    ] F:[793: show_form           ] [192.168.200.21]
+10-09-24 17:01:26 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:01:27 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[842: <module>            ] Run Application
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[843: <module>            ] V 20241009
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[885: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[893: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 9912 plu
+10-09-24 17:02:19 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[899: <module>            ] Connect db successful
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[794: show_form           ] [192.168.200.21]
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:02:19 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[842: <module>            ] Run Application
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[843: <module>            ] V 20241009
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[885: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[893: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 3408 plu
+10-09-24 17:02:46 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[899: <module>            ] Connect db successful
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[794: show_form           ] [192.168.200.21]
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:02:46 [root                       ] [INFO    ] F:[199: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:02:47 [root                       ] [INFO    ] F:[204: fill_date_from_db   ] date_from_sc: ('Norma de consum pe zi', None, None, '3408')
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[854: <module>            ] Run Application
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[855: <module>            ] V 20241009
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[897: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[905: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 3408 plu
+10-09-24 17:13:55 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[911: <module>            ] Connect db successful
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[806: show_form           ] [192.168.200.21]
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:13:55 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[854: <module>            ] Run Application
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[855: <module>            ] V 20241009
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[897: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[905: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 3408 plu
+10-09-24 17:14:46 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[911: <module>            ] Connect db successful
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[806: show_form           ] [192.168.200.21]
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:14:46 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[854: <module>            ] Run Application
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[855: <module>            ] V 20241009
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[897: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[905: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:15:11 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[911: <module>            ] Connect db successful
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[806: show_form           ] [192.168.200.21]
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:15:11 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[856: <module>            ] Run Application
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[857: <module>            ] V 20241009
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[899: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[907: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:16:39 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[913: <module>            ] Connect db successful
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[808: show_form           ] [192.168.200.21]
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:16:39 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:16:40 [root                       ] [INFO    ] F:[207: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:16:40 [root                       ] [INFO    ] F:[186: __init__            ] Name SC: 
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[856: <module>            ] Run Application
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[857: <module>            ] V 20241009
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[899: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[907: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:18:01 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[913: <module>            ] Connect db successful
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[808: show_form           ] [192.168.200.21]
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[207: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:18:01 [root                       ] [INFO    ] F:[186: __init__            ] Name SC: 
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[856: <module>            ] Run Application
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[857: <module>            ] V 20241009
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[899: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[907: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:18:43 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[913: <module>            ] Connect db successful
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[808: show_form           ] [192.168.200.21]
+10-09-24 17:18:43 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:18:44 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:18:44 [root                       ] [INFO    ] F:[207: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:18:44 [root                       ] [INFO    ] F:[186: __init__            ] Name SC: 
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[856: <module>            ] Run Application
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[857: <module>            ] V 20241009
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[899: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[907: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:20:51 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[913: <module>            ] Connect db successful
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[808: show_form           ] [192.168.200.21]
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[202: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[207: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:20:51 [root                       ] [INFO    ] F:[186: __init__            ] Name SC: 
+10-09-24 17:20:58 [root                       ] [INFO    ] F:[629: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:20:58 [root                       ] [INFO    ] F:[214: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:20:58 [root                       ] [INFO    ] F:[219: fill_date_from_db   ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[860: <module>            ] Run Application
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[861: <module>            ] V 20241009
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[903: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[911: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:30:10 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[917: <module>            ] Connect db successful
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[812: show_form           ] [192.168.200.21]
+10-09-24 17:30:10 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:30:11 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:30:11 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:30:11 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:31:04 [root                       ] [INFO    ] F:[860: <module>            ] Run Application
+10-09-24 17:31:04 [root                       ] [INFO    ] F:[861: <module>            ] V 20241009
+10-09-24 17:31:04 [root                       ] [INFO    ] F:[903: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:31:04 [root                       ] [INFO    ] F:[911: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:31:04 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[917: <module>            ] Connect db successful
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[812: show_form           ] [192.168.200.21]
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:31:05 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:33:04 [root                       ] [INFO    ] F:[633: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:33:04 [root                       ] [INFO    ] F:[215: fill_date_from_db   ] call fill_date_from_db
+10-09-24 17:33:04 [root                       ] [INFO    ] F:[220: fill_date_from_db   ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[906: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[914: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:34:15 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[920: <module>            ] Connect db successful
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[815: show_form           ] [192.168.200.21]
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:34:15 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[636: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[553: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,0,1,1,0,0,Vivi Art Boutique Fashion
+AD,0,61,1,1,0,0,PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI
+AD,124,181,1,1,0,0,4ani/
+AD,91,243,1,1,0,0,200 Lei
+BA3,133,317,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[669: get_setting_format  ] get_setting_format
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[642: onclick_bt_print    ] <wx._core.BusyCursor object at 0x157CE9B8>
+10-09-24 17:34:35 [root                       ] [INFO    ] F:[649: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[906: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[914: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:40:25 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[920: <module>            ] Connect db successful
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[815: show_form           ] [192.168.200.21]
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:40:25 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[636: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[553: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,69,1,1,0,0,Vivi Art Boutique Fashion
+AD,0,130,1,1,0,0,PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,268,1,1,0,0,200 Lei
+BA3,20,347,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[669: get_setting_format  ] get_setting_format
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[642: onclick_bt_print    ] <wx._core.BusyCursor object at 0x1528E9B8>
+10-09-24 17:40:28 [root                       ] [INFO    ] F:[649: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[863: <module>            ] Run Application
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[864: <module>            ] V 20241009
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[906: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[914: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:41:12 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[920: <module>            ] Connect db successful
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[815: show_form           ] [192.168.200.21]
+10-09-24 17:41:12 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:41:13 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:41:13 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:41:13 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[636: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[553: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,69,1,1,0,0,Vivi Art Boutique Fashion
+AD,0,130,1,1,0,0,PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,268,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[669: get_setting_format  ] get_setting_format
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[642: onclick_bt_print    ] <wx._core.BusyCursor object at 0x15E9E9B8>
+10-09-24 17:41:15 [root                       ] [INFO    ] F:[649: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:47:31 [root                       ] [INFO    ] F:[865: <module>            ] Run Application
+10-09-24 17:47:31 [root                       ] [INFO    ] F:[866: <module>            ] V 20241009
+10-09-24 17:47:31 [root                       ] [INFO    ] F:[908: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:47:31 [root                       ] [INFO    ] F:[916: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:47:31 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[922: <module>            ] Connect db successful
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[817: show_form           ] [192.168.200.21]
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:47:32 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[638: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[555: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,69,1,1,0,0,Vivi Art Boutique Fashion
+AD,3,130,1,1,0,0,PIJAMA DIN BUMBACEL CU AD,3,150,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,268,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[671: get_setting_format  ] get_setting_format
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[644: onclick_bt_print    ] <wx._core.BusyCursor object at 0x1574EA00>
+10-09-24 17:47:34 [root                       ] [INFO    ] F:[651: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[865: <module>            ] Run Application
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[866: <module>            ] V 20241009
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[908: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[916: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:49:49 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[922: <module>            ] Connect db successful
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[817: show_form           ] [192.168.200.21]
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:49:49 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:49:50 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:49:50 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[638: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[555: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,5,130,1,1,0,0,PIJAMA DIN BUMBACEL CU AD,5,150,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,270,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[671: get_setting_format  ] get_setting_format
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[644: onclick_bt_print    ] <wx._core.BusyCursor object at 0x1508EA00>
+10-09-24 17:49:52 [root                       ] [INFO    ] F:[651: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:51:50 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:51:50 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,3,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,3,150,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,270,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x156CEA00>
+10-09-24 17:51:53 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:52:13 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:52:13 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,3,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,3,170,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,270,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x1508EA00>
+10-09-24 17:52:14 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:52:45 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:52:45 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,5,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,5,170,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,270,1,1,0,0,200 Lei
+BA3,21,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x15A2EA00>
+10-09-24 17:52:47 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34271234567890130 plu
+10-09-24 17:53:34 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:53:34 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 1-5 ANI', '4ani/', 200, '34271234567890130')
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,5,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,5,170,1,1,0,0,IMPRIMEU 1-5 ANI
+AD,114,217,1,1,0,0,Marimea: 4ani/
+AD,155,270,1,1,0,0,200 Lei
+BA3,15,339,2,6,80,0,1,34271234567890130
+E
+
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x1509EA00>
+10-09-24 17:53:35 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34341234567890132 plu
+10-09-24 17:56:08 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 17:56:08 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:56:09 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 6-9 ANI', '6ani/', 250, '34341234567890132')
+10-09-24 17:56:09 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 6-9 ANI', '6ani/', 250, '34341234567890132')
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,5,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,5,170,1,1,0,0,IMPRIMEU 6-9 ANI
+AD,114,217,1,1,0,0,Marimea: 6ani/
+AD,155,270,1,1,0,0,250 Lei
+BA3,15,339,2,6,80,0,1,34341234567890132
+E
+
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x157CEA00>
+10-09-24 17:56:10 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
+10-09-24 18:07:03 [root                       ] [INFO    ] F:[864: <module>            ] Run Application
+10-09-24 18:07:03 [root                       ] [INFO    ] F:[865: <module>            ] V 20241009
+10-09-24 18:07:03 [root                       ] [INFO    ] F:[907: <module>            ] DB_CONNECTOR: C:\oracle\instantclient_12_2
+10-09-24 18:07:03 [root                       ] [INFO    ] F:[915: <module>            ] viviartbutic cloudbd C:\oracle\instantclient_12_2 34341234567890132 plu
+10-09-24 18:07:03 [DB.conn                    ] [INFO    ] F:[16: __init__            ] p_db_name: [viviartbutic], p_db_server: [cloudbd], p_oracle_home: [C:\oracle\instantclient_12_2]
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[921: <module>            ] Connect db successful
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[816: show_form           ] [192.168.200.21]
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[120: __init__            ] Form init _mainFrame, [192.168.200.21]
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 6-9 ANI', '6ani/', 250, '34341234567890132')
+10-09-24 18:07:04 [root                       ] [INFO    ] F:[187: __init__            ] Name SC: 
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[637: onclick_bt_print    ] onclick_bt_print
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[203: fill_date_vivi      ] call fill_date_vivi
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[208: fill_date_vivi      ] date_from_sc: ('PIJAMA DIN BUMBACEL CU IMPRIMEU 6-9 ANI', '6ani/', 250, '34341234567890132')
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[299: get_zpl_sticker     ] v_sticker_format: viviartbutic
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[515: create_label_viviart] create_label_viviartbutic
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[554: create_label_viviart] text_template 
+^Q60,3
+^W57
+^H5
+^P1
+^S2
+^AD
+^C1
+^R0
+~Q+0
+^O0
+^D0
+^E40
+~R255
+^XSET,ROTATION,0
+^L
+Dy2-me-dd
+Th:m:s
+Dy2-me-dd
+Th:m:s
+AD,43,75,1,1,0,0,Vivi Art Boutique Fashion
+AD,5,130,1,1,0,0,PIJAMA DIN BUMBACEL CU 
+AD,5,170,1,1,0,0,IMPRIMEU 6-9 ANI
+AD,114,217,1,1,0,0,Marimea: 6ani/
+AD,105,260,2,2,0,0,250 Lei
+BA3,15,339,2,6,80,0,1,34341234567890132
+E
+
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[670: get_setting_format  ] get_setting_format
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[643: onclick_bt_print    ] <wx._core.BusyCursor object at 0x15F4EA90>
+10-09-24 18:07:07 [root                       ] [INFO    ] F:[650: onclick_bt_print    ] host/port: 192.168.0.249/9100
